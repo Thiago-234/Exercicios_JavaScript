@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<style>
+    input, label{
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    input:focus{
+        outline: none;
+    }
+    .central{
+        display: inline-block;
+        border: 1px solid black;
+        margin: auto auto;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    button{
+        padding: 10px;
+        border: 1px solid black;
+        background: none;
+        margin: 5px;
+    }
+    p{
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+</style>
+<body>
+    <h1 style="text-align: center;">Tradução de cores</h1>
+    <div class="central">
+        <label for="color">Digite uma cor</label>
+        <input id="color" type="text">
+        <button id="traduzir" onclick="traduzir()">Enviar</button>
+        <p id="cor"></p>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
