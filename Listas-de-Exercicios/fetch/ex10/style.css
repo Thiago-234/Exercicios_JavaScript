@@ -1,0 +1,46 @@
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    width: 450px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;  /* Adiciona um padding para não deixar o conteúdo colado nas bordas */
+    box-sizing: border-box;  /* Garante que o padding esteja incluído na largura total da div */
+    min-height: 250px;  /* Altura mínima, mas vai se ajustar conforme o conteúdo */
+}
+
+#btn {
+    position: absolute;
+    bottom: 10px;  /* Ajusta o botão para ficar 10px do fundo da div */
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid green;
+    width: 100px;
+    padding: 8px;
+    color: green;
+    background: none;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    transition: .5s;
+    color: white;
+    border: none;
+    background: green;
+    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.6);
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 90%;
+    margin: 0;  /* Removido margin para não interferir no ajuste da div */
+    padding-bottom: 20px;  /* Adiciona um espaçamento abaixo do texto */
+}
