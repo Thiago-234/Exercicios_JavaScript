@@ -5,4 +5,4 @@ Armazenar os **exercícios práticos** de JavaScript, cobrindo conceitos fundame
 ## Como Usar 
 **Clone o repositório**
 1. ```
-   bash git clone https://github.com/Thiago-234/Exercicios_JavaScript.git
+   git clone https://github.com/Thiago-234/Exercicios_JavaScript.git
